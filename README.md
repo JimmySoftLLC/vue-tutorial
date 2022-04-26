@@ -1,2 +1,2 @@
 # vue-tutorial
-Tutorial code for your first view app
+Tutorial code for your first vue app
