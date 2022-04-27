@@ -13,9 +13,9 @@
   <body>
     <div id="app">
       <h1>{{appMessage}}</h1>
-      <image :class="boarderColor" v-bind:src ="picture" :alt="`${plantColor} ${plantType}`"></image>
-      <h2>{{plantColor}} {{plantType}} </h1>
-      <button v-on:click = "buttonPressed":class="blue">Do stuff</button>
+      <image :class="boarderColor" v-bind:src ="picture" :alt="`${name}`"></image>
+      <h2>{{plantColor}} {{name}} </h1>
+      <button v-on:click = "buttonPressed":class="boarderColor">Do stuff</button>
     </div>
     <script src = https://unpkg.com/vue@latest></script>
     <script src = "app.js"></script>

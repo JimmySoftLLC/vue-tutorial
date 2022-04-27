@@ -10,7 +10,7 @@ const app = Vue.createApp({
     },
     methods:{
         buttonPressed(){
-            console.log(this.plantColor)
+            prompt("button pressed")
         }
     }
 })
