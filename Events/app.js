@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     data(){
         return{
-            appMessage: 'First view app presenting',
+            appMessage: 'First Vue app presenting',
             plantColor: 'Yellow',
             plantType: 'Sunflower',
             boarderColor: "red",
